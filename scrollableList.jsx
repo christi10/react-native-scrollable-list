@@ -55,8 +55,8 @@ const ScrollableItems = () => {
         renderItem={({ item, index }) => (
           <View
             style={{
-              padding: 25,
-              backgroundColor: "transparent",
+              padding: 50,
+              backgroundColor: "orangered",
               opacity: index === 1 ? 0.5 : 1 // Set opacity for the second item
             }}
           >
